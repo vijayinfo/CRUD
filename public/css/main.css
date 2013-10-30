@@ -1,0 +1,79 @@
+
+
+
+body{top:0px;position: absolute;width: 100%;bottom: 0px;left:-1px;
+	background: url('../images/pattern_wallpaper_by_invaderjohn.jpg'); }
+
+ div#content {display: none;top:0px;position: absolute;width: 100%;bottom: 0px;left:-1px;
+	background: url('../images/pattern_wallpaper_by_invaderjohn.jpg');
+	
+}
+
+
+
+
+p {font-size: 16px; position: relative;color: white;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
+}
+
+p:hover {
+	
+	color: white;
+	cursor: pointer;
+	font-size: 20px;
+
+
+}
+
+p.single{font-size: 2rem;}
+
+
+div#search{float: right;background: #333;}
+
+div#posts{background: red; margin-top: 10em;min-height: 210px;border-radius: 1em;}
+
+
+div#posts p{padding-left: 10px;}
+
+
+div#left p{float: left;padding-left: 10px;}
+
+
+/*#pa{-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;}
+
+#pa:hover{-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	transform: scale(1.1);
+	margin-left: 3em
+}
+
+div.load{ background:#000 url(../images/preloader.gif) no-repeat center center;
+   height: 100px;
+   width: 100px;
+   position: fixed;
+   z-index: 1000;
+   left: 50%;
+   top: 50%;
+   margin: -25px 0 0 -25px;}*/
+
+
+
+.form-create{background: red;width: 400px;margin-top: 4em;height:110%;}
+
+.form-create textarea{width: 90%;}
+
+.form-create p{margin-left: 1.5em;padding-top: 10px;}
+
+li.errors{color: red;font-size:18px; font-weight: bold;background: white;width:400px;list-style: none;}
+
+#copy{text-align: center;margin-top: 1em;}
